@@ -1,0 +1,10 @@
+{
+  "name": "EPiServer.Forms.Samples",
+  "scripts": {
+    "build": "lessc **/*.less",
+    "lessc": "lessc"
+  },
+  "dependencies": {
+    "less": "^3.10.3"
+  }
+}
