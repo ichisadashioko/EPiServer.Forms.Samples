@@ -2,7 +2,11 @@
   <PropertyGroup>
     <TargetFramework>net461</TargetFramework>
     <OutputType>Library</OutputType>
-    <NuspecFile>EPiServer.Forms.ServiceApi.nuspec</NuspecFile>
+    <NuspecFile>EPiServer.Forms.Samples.nuspec</NuspecFile>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <NoWarn>1701;1702;NU1603;NU1605</NoWarn>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <NuspecProperties>Configuration=$(Configuration); Version=$(version)</NuspecProperties>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="EPiServer.Forms" Version="4.27.0" />
