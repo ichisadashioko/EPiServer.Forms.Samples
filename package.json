@@ -5,6 +5,7 @@
     "lessc": "lessc"
   },
   "dependencies": {
-    "less": "^3.10.3"
+    "less": "^3.11.0",
+    "tslib": "^1.10.0"
   }
 }
